@@ -47,7 +47,7 @@ export default {
 		saveActiveIndex(activeIndex) {
 			window.sessionStorage.setItem("activeIndex", activeIndex);
 			this.activeIndex = activeIndex;
-			console.log("冲突解决");
+			console.log("冲突避免");
 		},
 	},
 };
