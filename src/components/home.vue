@@ -47,7 +47,7 @@ export default {
 		saveActiveIndex(activeIndex) {
 			window.sessionStorage.setItem("activeIndex", activeIndex);
 			this.activeIndex = activeIndex;
-			console.log("傻逼");
+			console.log("你才是");
 		},
 	},
 };
