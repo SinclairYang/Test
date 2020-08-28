@@ -47,7 +47,7 @@ export default {
 		saveActiveIndex(activeIndex) {
 			window.sessionStorage.setItem("activeIndex", activeIndex);
 			this.activeIndex = activeIndex;
-			console.log("是这样的");
+			console.log("单引号的引用");
 		},
 	},
 };
